@@ -1,0 +1,76 @@
+2015-03-25 11:25:40.321 Quandl[43628:33587237] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cboylan/Library/Developer/CoreSimulator/Devices/3790CBA6-CC14-4280-A92F-C80896ADAB1F/data/Containers/Data/Application/4FF74102-B4A6-4CA7-B033-F6AEDBFBCED0/Library/Cookies/Cookies.binarycookies
+2015-03-25 11:25:40.900 Quandl[43628:33587237] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-25 11:25:40.901 Quandl[43628:33587237] Multi-tasking -> Device: YES, App: YES
+2015-03-25 11:25:40.933 Quandl[43628:33587237] Unlimited access to network resources
+2015-03-25 11:25:40.953 Quandl[43628:33587237] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-25 11:25:42.755 Quandl[43628:33587237] Resetting plugins due to page load.
+2015-03-25 11:25:43.373 Quandl[43628:33587237] Finished load of: file:///Users/cboylan/Library/Developer/CoreSimulator/Devices/3790CBA6-CC14-4280-A92F-C80896ADAB1F/data/Containers/Bundle/Application/090ACE28-3EE2-4E58-BF32-5907DD01485C/Quandl.app/www/index.html
+2015-03-25 11:26:53.311 Quandl[43628:33596512] Communications error: <OS_xpc_error: <error: 0x2da65f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2da683c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-03-25 11:28:12.069 Quandl[43628:33603048] Terminating since there is no system app.
+2015-03-25 12:44:08.144 Quandl[45202:33838536] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cboylan/Library/Developer/CoreSimulator/Devices/3790CBA6-CC14-4280-A92F-C80896ADAB1F/data/Containers/Data/Application/F4C74CF4-7C6F-47FC-880B-919A16044B1B/Library/Cookies/Cookies.binarycookies
+2015-03-25 12:44:09.131 Quandl[45202:33838536] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-25 12:44:09.141 Quandl[45202:33838536] Multi-tasking -> Device: YES, App: YES
+2015-03-25 12:44:09.173 Quandl[45202:33838536] Unlimited access to network resources
+2015-03-25 12:44:09.186 Quandl[45202:33838536] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-25 12:44:10.443 Quandl[45202:33838536] Resetting plugins due to page load.
+2015-03-25 12:44:11.234 Quandl[45202:33838536] Finished load of: file:///Users/cboylan/Library/Developer/CoreSimulator/Devices/3790CBA6-CC14-4280-A92F-C80896ADAB1F/data/Containers/Bundle/Application/2AB6637C-62D5-41F5-9562-14E101CEDB63/Quandl.app/www/index.html
+2015-03-25 12:46:16.713 Quandl[45202:33838536] Received memory warning.
+2015-03-25 13:15:18.909 Quandl[45202:33959961] Terminating since there is no system app.
+2015-03-25 14:09:49.541 Quandl[46096:34233451] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cboylan/Library/Developer/CoreSimulator/Devices/3790CBA6-CC14-4280-A92F-C80896ADAB1F/data/Containers/Data/Application/A5B3E11A-4C44-448B-BC66-CF946F115652/Library/Cookies/Cookies.binarycookies
+2015-03-25 14:09:50.747 Quandl[46096:34233451] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-25 14:09:50.747 Quandl[46096:34233451] Multi-tasking -> Device: YES, App: YES
+2015-03-25 14:09:50.789 Quandl[46096:34233451] Unlimited access to network resources
+2015-03-25 14:09:50.838 Quandl[46096:34233451] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-25 14:09:53.330 Quandl[46096:34233451] Resetting plugins due to page load.
+2015-03-25 14:09:54.125 Quandl[46096:34233451] Finished load of: file:///Users/cboylan/Library/Developer/CoreSimulator/Devices/3790CBA6-CC14-4280-A92F-C80896ADAB1F/data/Containers/Bundle/Application/BDA799B6-CF24-4697-93FA-10557DEB8220/Quandl.app/www/index.html
+2015-04-20 14:43:40.257 Quandl[16674:56255051] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cboylan/Library/Developer/CoreSimulator/Devices/0404CC51-78D5-468E-A407-CCEB0B0E30EE/data/Containers/Data/Application/007EF83E-FDF1-4BF3-BE07-0E11150D17BE/Library/Cookies/Cookies.binarycookies
+2015-04-20 14:43:40.490 Quandl[16674:56255051] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 14:43:40.491 Quandl[16674:56255051] Multi-tasking -> Device: YES, App: YES
+2015-04-20 14:43:40.505 Quandl[16674:56255051] Unlimited access to network resources
+2015-04-20 14:43:40.517 Quandl[16674:56255051] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 14:43:40.995 Quandl[16674:56255051] Resetting plugins due to page load.
+2015-04-20 14:43:41.453 Quandl[16674:56255051] Finished load of: file:///Users/cboylan/Library/Developer/CoreSimulator/Devices/0404CC51-78D5-468E-A407-CCEB0B0E30EE/data/Containers/Bundle/Application/30883C7B-EF81-4A0A-ADCB-15CED5353DC8/Quandl.app/www/index.html
+2015-04-20 14:45:27.321 Quandl[16722:56265769] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cboylan/Library/Developer/CoreSimulator/Devices/0404CC51-78D5-468E-A407-CCEB0B0E30EE/data/Containers/Data/Application/79F3347B-04CE-4833-A1F8-F3C844B09059/Library/Cookies/Cookies.binarycookies
+2015-04-20 14:45:27.486 Quandl[16722:56265769] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 14:45:27.486 Quandl[16722:56265769] Multi-tasking -> Device: YES, App: YES
+2015-04-20 14:45:27.494 Quandl[16722:56265769] Unlimited access to network resources
+2015-04-20 14:45:27.512 Quandl[16722:56265769] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 14:45:27.968 Quandl[16722:56265769] Resetting plugins due to page load.
+2015-04-20 14:45:28.170 Quandl[16722:56265769] Finished load of: file:///Users/cboylan/Library/Developer/CoreSimulator/Devices/0404CC51-78D5-468E-A407-CCEB0B0E30EE/data/Containers/Bundle/Application/C8265729-7C85-4EB0-95D3-EE0C47562839/Quandl.app/www/index.html
