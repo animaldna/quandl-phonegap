@@ -34,13 +34,6 @@
                 width: 100%;
                 height:400px;
             }
-            #test-box{
-                width: 300px;
-                height: 300px;
-                background-color: #333;
-                position: relative;
-                top: 100px;
-            }
         </style>
         <title>Hello World</title>
     </head>
@@ -86,25 +79,19 @@
                 //manually create a new hammer object for the chart and add desired events / options
                 //this logs ONLY zoomout and viewall, does nothing to the chart
                 //if you zoomin with the context menu, you can zoom out by zooming in with touch ._.
-                var hammerChart = new Hammer.Manager(document.getElementById("test-box"), {
-                    recognizers:[
-                        [Hammer.Tap, {event: "doubletap", taps: 2}],
-                        [Hammer.Pinch, {event: "pinchin", threshold: 1, enable: true}],
-                        [Hammer.Pinch, {event: "pinchout", threshold: 1, enable: true}]
-                    ],
-                    //prevent_defaults: true
-                });
 
-                /*
-                ** Original Recognizers **
-                hammerChart.add(new Hammer.Tap({event: "doubletap", taps: 2}));
-                hammerChart.add(new Hammer.Pinch({event: "pinchout", threshold: 1}));
-                hammerChart.add(new Hammer.Pinch({event: "pinchin", threshold:1}));
-                */
+                var hammerChart = new Hammer.Manager(document.getElementById("quandl-chart"));
+                var pinch = new Hammer.Pinch({});
+                hammerChart.add([pinch]);
+
+                var tap = new Hammer.Tap({taps: 2, interval: 100});
+                hammerChart.add([tap]);
+
+                var press = new Hammer.Press({time: 1000});
+                hammerChart.add([press]);
 
                 var zoomFlag = false;
                 hammerChart.on("pinchout", function(ev){
-                    console.log(ev);
                     if(!zoomFlag){
                         $('#quandl-chart').zoomIn();
                         zoomFlag = true;
@@ -112,20 +99,19 @@
                     setTimeout(function(){zoomFlag = false;}, 1000);
                 });
 
-                hammerChart.on("pinchin", function(ev){ //when switched, still fires ONLY zoomIn();
-                    console.log(ev);
-                    //event.preventDefault(); //when used, zc shows zoomout as zoomin (when it was sent to pinchin / zoomout)
-                    $("#stuff").html("<p>PINCHOUT</p>");
+                hammerChart.on("pinchin", function(ev){
                     $('#quandl-chart').zoomOut();
                 });
 
-                hammerChart.on("doubletap", function(ev){
+                hammerChart.on("tap", function(ev){
                     $('#quandl-chart').viewAll();
                 });
 
-                zingchart.zoom = function(p) {
-                  console.log('zoom', p);
-                };
+                hammerChart.on("press", function(ev){
+                    console.log("pressety press press");
+                });
+
+               
             };
          </script>
     </body>
